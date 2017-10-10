@@ -14,4 +14,7 @@
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="TypeHierarchy" />
+  <action id="com.jetbrains.python.console.RunPythonConsoleAction">
+    <keyboard-shortcut first-keystroke="ctrl meta p" />
+  </action>
 </keymap>
