@@ -1,0 +1,42 @@
+<templateSet group="Python">
+  <template name="forin" value="for $VAR$ in $LINE$:&#10;    $SCRIPT$" description="forin for python" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LINE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCRIPT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ifelse" value="if $CONDITION$:&#10;    $SCRIPT1$&#10;else:&#10;    $SCRIPT2$" description="if/else for python" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCRIPT1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCRIPT2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="if" value=" if $CONDITION$:&#10;    $SCRIPT$" description="if for python" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCRIPT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ifelifelse" value="if $CONDITION1$:&#10;    $SCRIPT1$&#10;elif $CONDITION2$:&#10;    $SCRIPT2$&#10;else:&#10;    $SCRIPT3$" description="if/else-if/else for python" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCRIPT1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONDITION2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCRIPT2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCRIPT3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="elif" value="elif $CONDITION$:&#10;    $SCRIPT$" description="else-if for python" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCRIPT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
