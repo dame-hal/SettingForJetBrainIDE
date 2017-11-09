@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="training_data" type="PLAIN_TEXT" />
       <mapping pattern="workfile" type="PLAIN_TEXT" />
+      <mapping pattern="stock_price" type="PLAIN_TEXT" />
       <mapping pattern="reading_training_data" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
