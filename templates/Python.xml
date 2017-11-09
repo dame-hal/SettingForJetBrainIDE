@@ -15,7 +15,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="if" value=" if $CONDITION$:&#10;    $SCRIPT$" description="if for python" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="if $CONDITION$:&#10;    $SCRIPT$" description="if for python" toReformat="false" toShortenFQNames="true">
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="SCRIPT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
