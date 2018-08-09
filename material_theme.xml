@@ -5,6 +5,7 @@
     <option name="highlightColor" value="80cbc4" />
     <option name="accentColor" value="80cbc4" />
     <option name="userId" value="-456d6a34:164e9faf8a8:-7fff" />
+    <option name="allowDataCollection" value="true" />
     <option name="isHighContrast" value="true" />
   </component>
 </application>
